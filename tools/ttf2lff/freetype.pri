@@ -8,6 +8,8 @@ win32 {
     # set this line to your freetype installation
     # download it from http://gnuwin32.sourceforge.net/packages/freetype.htm
 
+    FREETYPE_DIR = C:\Program Files (x86)\GnuWin32
+
     isEmpty( FREETYPE_DIR ) {
         # FREETYPE_DIR was not set in custom.pro
         FREETYPE_DIR = /Qt/freetype
